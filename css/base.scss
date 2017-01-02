@@ -1,0 +1,72 @@
+/* BOX SIZING */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* BODY */
+
+body {
+  background-color: #ffffff;
+  color: #787878;
+  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/* PRIMARY STRUCTURE */
+
+main {
+  display: block;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* HEADER AND NAVIGATION */
+
+header{
+  height: 3em;
+
+  .logo{
+    background: url('../img/gz-logo.png') no-repeat scroll center;
+    background-size: 100%;
+    display:block;
+    height:50px;
+    width:50px;
+    position: relative;
+    top: 23px;
+    margin: 0 auto;
+    text-indent: -9999px;
+  }
+}
+
+nav{
+  position: absolute;
+  top:0;
+  margin-top:6em;
+  width: 100%;
+  text-align: center;
+
+  .nav-col{
+    margin: 0 1em;
+  }
+}
+
+/* FOOTER */
+footer {
+  padding: 20px 0;
+
+  p{
+    padding: 0 1em;
+  }
+}

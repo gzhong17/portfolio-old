@@ -1,0 +1,95 @@
+/* SECTION STYLES */
+.module:last-child {
+  margin-bottom: 0;
+}
+
+.module.content {
+  padding: 40px 0;
+}
+
+.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.module.parallax.showcase {
+  height: 500px;
+  box-shadow : inset 0 0 5em #444;
+}
+
+.module.welcome {
+  background-color: #FDD9A1;
+  background-image: url("../img/welcome.png");
+  background-repeat: repeat;
+  text-align: center;
+  box-shadow : inset 0 0 5em #E2A664;
+
+  #subtitle {
+    margin-bottom: 2.5em;
+    font-style: italic;
+  }
+
+  // #scroll-down{
+  //   background-size: 100%;
+  //   display:block;
+  //   width:50px;
+  //   position: relative;
+  //   margin: 0.8em auto 0 auto;
+  //   font-size: 5em;
+  // }
+}
+
+.module.aboutme {
+  background-image: none;
+  background-color: #E6E6E6;
+  box-shadow : inset 0 0 5em #999;
+  height:650px;
+
+  @media all and (min-width: 605px){
+    background-image: url("../img/self-portrait-long.png");
+  }
+
+  #about-contact{
+    padding-top: 3em;
+
+    p{
+      font-size: 1.1em;
+      margin: 1em 0;
+      width: 100%;
+    }
+
+    @media all and (min-width: 605px){
+      padding-top: 2em;
+
+      p{
+        width: 70%;
+        font-size: 1.2em;
+
+      }
+    }
+
+    @media all and (min-width: 960px){
+      padding-top: 3em;
+      p{
+        width: 60%;
+        font-size: 1.3em;
+      }
+    }
+  }
+}
+
+.module.fhSharepoint {
+  background-color:#005393;
+  background-image: url("../img/fh-sharepoint/fh-banner-2.png");
+}
+
+.module.sfuBeedie {
+  background-color:#C4122F;
+  background-image: url("../img/beedie/beedie-banner.png");
+}

@@ -1,0 +1,28 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'Megrim';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Megrim'), url("../font/Megrim.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url("../font/RobotoCondensed-Light.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url("../font/RobotoCondensed-Regular.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Condensed Italic'), local('RobotoCondensed-Italic'), url("../font/RobotoCondensed-Italic.ttf") format('truetype');
+}

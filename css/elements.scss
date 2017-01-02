@@ -1,0 +1,83 @@
+/*BASIC TEXT ELEMENTS*/
+
+h1 {
+  padding-top:2.5em;
+  font-family: 'Megrim', helvetica, arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 4em;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  line-height: 1em;
+
+  @media all and (min-width: 605px) {
+    font-size: 5em;
+  }
+}
+
+h2 {
+  color: #818181;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+
+  @media all and (min-width: 605px) {
+    font-size: 2em;
+  }
+}
+
+h3 {
+  color: #666666;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* LINKS */
+a {
+  text-decoration: none;
+  color: #F4777C;
+}
+
+a:hover {
+  color: #818181;
+}
+
+/* BUTTONS */
+
+.button{
+  background-size: 100%;
+  display:inline-block;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7em;
+  text-decoration: underline;
+
+  @media all and (min-width: 605px) {
+    font-size: 1.5em;
+  }
+}
+
+.button.other-works{
+  width:100%;
+  text-align: center;
+  position: relative;
+  margin: 2em auto 0 auto;
+}

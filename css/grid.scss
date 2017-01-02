@@ -1,0 +1,87 @@
+.works{
+  width: 100%;
+  text-align: center;
+
+  a {
+    font-size: 16px;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 8px;
+    width: 90%;
+    margin-right: 8px;
+    text-decoration: none;
+  }
+
+  @media screen and (min-width: 50em) {
+    a {
+      width: 48%;
+    }
+  }
+
+  a:hover img {
+    transform: scale(1.15);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+  }
+
+  figure {
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+
+    figcaption {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 15px;
+      opacity: 0;
+      color: white;
+      transition: opacity .2s ease-in-out;
+      background: rgba(0, 0, 0, .5);
+
+
+      p{
+        margin-top: 25%;
+        font-style: normal;
+        font-weight: 400;
+      }
+    }
+  }
+
+  a:hover figcaption {
+    opacity: 1;
+  }
+
+  img {
+    border: none;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background: #ccc;
+    transition: transform .2s ease-in-out;
+  }
+}
+
+.fh-problems{
+  width: 100%;
+  
+  .home-desc, .support-desc{
+    display: inline-block;
+    margin: 0.5em;
+    width: 90%;
+    text-decoration: none;
+
+  }
+
+  @media screen and (min-width: 50em) {
+    .home-desc, .support-desc {
+      width: 40%;
+      vertical-align: top;
+    }
+  }
+}
