@@ -1,7 +1,7 @@
 # gloria-portfolio
 
 ## Overview
-This is a portfolio website made with the intention for fulfilling the IAT 339 course challenge. In addition, it is to showcase my existing works and to attract employment for UX and UI positions.
+This is a portfolio website initially made with the intention for fulfilling the IAT 339 course challenge. In addition, it is to showcase my existing works and to attract employment for UX, UI, and front-end development positions.
 
 The website currently features three pages, the homepage and two individual pages for my works. The website was made to be able to accommodate more projects in the future. On the homepage, there three sections, Welcome, My Works, and About Me.
 
