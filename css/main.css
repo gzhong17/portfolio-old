@@ -244,8 +244,18 @@ a:hover {
 }
 
 .module.welcome #subtitle {
-  margin-bottom: 2.5em;
   font-style: italic;
+}
+
+.module.welcome .intro {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+@media all and (min-width: 450px) {
+  .module.welcome .intro {
+    font-size: 1.2em;
+  }
 }
 
 .module.aboutme {
@@ -266,7 +276,7 @@ a:hover {
 }
 
 .module.aboutme #about-contact p {
-  font-size: 1.1em;
+  font-size: 1em;
   margin: 1em 0;
   width: 100%;
 }
