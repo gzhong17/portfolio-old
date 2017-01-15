@@ -37,5 +37,10 @@
     flex-grow:1;
     flex-shrink:1;
     flex-basis:20em;
+
+    img{
+      width: 100%;
+      outline: 1px #ddd solid;
+    }
   }
 }

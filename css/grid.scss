@@ -77,6 +77,11 @@
     width: 100%;
     text-decoration: none;
 
+    img{
+      width: 100%;
+      outline: 1px #ddd solid;
+    }
+
   }
 
   @media screen and (min-width: 50em) {

@@ -270,6 +270,9 @@ a:hover {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 20em; }
+    .columns.flex .col-1 img {
+      width: 100%;
+      outline: 1px #ddd solid; }
 
 .works {
   width: 100%;
@@ -329,6 +332,9 @@ a:hover {
     margin: 0.5em;
     width: 100%;
     text-decoration: none; }
+    .columns .col-1 img {
+      width: 100%;
+      outline: 1px #ddd solid; }
   @media screen and (min-width: 50em) {
     .columns .col-1 {
       width: 47%;
@@ -389,7 +395,7 @@ label, #active {
           -ms-transform: scale(0.6);
           transform: scale(0.6); } }
   #slider #slides {
-    margin-top: 3em; }
+    margin-top: 0; }
     #slider #slides .inner {
       width: 500%;
       -webkit-transform: translateZ(0);
@@ -430,6 +436,9 @@ input {
 #slide4:checked ~ #slides .inner {
   margin-left: -300%; }
 
+#slide5:checked ~ #slides .inner {
+  margin-left: -400%; }
+
 #overflow {
   width: 100%;
   overflow: hidden; }
@@ -440,16 +449,18 @@ article img {
 #slide1:checked ~ #controls label:nth-child(2),
 #slide2:checked ~ #controls label:nth-child(3),
 #slide3:checked ~ #controls label:nth-child(4),
-#slide4:checked ~ #controls label:nth-child(1) {
+#slide4:checked ~ #controls label:nth-child(5),
+#slide5:checked ~ #controls label:nth-child(1) {
   background: url("../img/carousel/next.png") no-repeat;
   float: right;
   margin: 0 -70px 0 0;
   display: block; }
 
-#slide1:checked ~ #controls label:nth-child(4),
+#slide1:checked ~ #controls label:nth-child(5),
 #slide2:checked ~ #controls label:nth-child(1),
 #slide3:checked ~ #controls label:nth-child(2),
-#slide4:checked ~ #controls label:nth-child(3) {
+#slide4:checked ~ #controls label:nth-child(3),
+#slide5:checked ~ #controls label:nth-child(4) {
   background: url("../img/carousel/prev.png") no-repeat;
   float: left;
   margin: 0 0 0 -70px;
